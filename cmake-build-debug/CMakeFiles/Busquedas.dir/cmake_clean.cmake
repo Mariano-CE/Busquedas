@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Busquedas.dir/main.cpp.o"
+  "CMakeFiles/Busquedas.dir/bSecuencial/bSecuencial.cpp.o"
+  "CMakeFiles/Busquedas.dir/bBinaria/BusquedaBinaria.cpp.o"
   "Busquedas.pdb"
   "Busquedas"
 )

@@ -3,4 +3,4 @@ project(Busquedas)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Busquedas main.cpp)
+add_executable(Busquedas bSecuencial/bSecuencial.cpp bBinaria/BusquedaBinaria.cpp)

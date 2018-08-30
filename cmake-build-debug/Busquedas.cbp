@@ -84,7 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mariano/CLionProjects/Busquedas/main.cpp">
+		<Unit filename="/home/mariano/CLionProjects/Busquedas/bBinaria/BusquedaBinaria.cpp">
+			<Option target="Busquedas"/>
+		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/Busquedas/bSecuencial/bSecuencial.cpp">
 			<Option target="Busquedas"/>
 		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/Busquedas/CMakeLists.txt">

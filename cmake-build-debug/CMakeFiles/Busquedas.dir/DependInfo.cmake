@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mariano/CLionProjects/Busquedas/main.cpp" "/home/mariano/CLionProjects/Busquedas/cmake-build-debug/CMakeFiles/Busquedas.dir/main.cpp.o"
+  "/home/mariano/CLionProjects/Busquedas/bBinaria/BusquedaBinaria.cpp" "/home/mariano/CLionProjects/Busquedas/cmake-build-debug/CMakeFiles/Busquedas.dir/bBinaria/BusquedaBinaria.cpp.o"
+  "/home/mariano/CLionProjects/Busquedas/bSecuencial/bSecuencial.cpp" "/home/mariano/CLionProjects/Busquedas/cmake-build-debug/CMakeFiles/Busquedas.dir/bSecuencial/bSecuencial.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -123,32 +123,59 @@ Busquedas/fast:
 	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/build
 .PHONY : Busquedas/fast
 
-main.o: main.cpp.o
+bBinaria/BusquedaBinaria.o: bBinaria/BusquedaBinaria.cpp.o
 
-.PHONY : main.o
+.PHONY : bBinaria/BusquedaBinaria.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/main.cpp.o
-.PHONY : main.cpp.o
+bBinaria/BusquedaBinaria.cpp.o:
+	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/bBinaria/BusquedaBinaria.cpp.o
+.PHONY : bBinaria/BusquedaBinaria.cpp.o
 
-main.i: main.cpp.i
+bBinaria/BusquedaBinaria.i: bBinaria/BusquedaBinaria.cpp.i
 
-.PHONY : main.i
+.PHONY : bBinaria/BusquedaBinaria.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/main.cpp.i
-.PHONY : main.cpp.i
+bBinaria/BusquedaBinaria.cpp.i:
+	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/bBinaria/BusquedaBinaria.cpp.i
+.PHONY : bBinaria/BusquedaBinaria.cpp.i
 
-main.s: main.cpp.s
+bBinaria/BusquedaBinaria.s: bBinaria/BusquedaBinaria.cpp.s
 
-.PHONY : main.s
+.PHONY : bBinaria/BusquedaBinaria.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/main.cpp.s
-.PHONY : main.cpp.s
+bBinaria/BusquedaBinaria.cpp.s:
+	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/bBinaria/BusquedaBinaria.cpp.s
+.PHONY : bBinaria/BusquedaBinaria.cpp.s
+
+bSecuencial/bSecuencial.o: bSecuencial/bSecuencial.cpp.o
+
+.PHONY : bSecuencial/bSecuencial.o
+
+# target to build an object file
+bSecuencial/bSecuencial.cpp.o:
+	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/bSecuencial/bSecuencial.cpp.o
+.PHONY : bSecuencial/bSecuencial.cpp.o
+
+bSecuencial/bSecuencial.i: bSecuencial/bSecuencial.cpp.i
+
+.PHONY : bSecuencial/bSecuencial.i
+
+# target to preprocess a source file
+bSecuencial/bSecuencial.cpp.i:
+	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/bSecuencial/bSecuencial.cpp.i
+.PHONY : bSecuencial/bSecuencial.cpp.i
+
+bSecuencial/bSecuencial.s: bSecuencial/bSecuencial.cpp.s
+
+.PHONY : bSecuencial/bSecuencial.s
+
+# target to generate assembly for a file
+bSecuencial/bSecuencial.cpp.s:
+	$(MAKE) -f CMakeFiles/Busquedas.dir/build.make CMakeFiles/Busquedas.dir/bSecuencial/bSecuencial.cpp.s
+.PHONY : bSecuencial/bSecuencial.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Busquedas"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... bBinaria/BusquedaBinaria.o"
+	@echo "... bBinaria/BusquedaBinaria.i"
+	@echo "... bBinaria/BusquedaBinaria.s"
+	@echo "... bSecuencial/bSecuencial.o"
+	@echo "... bSecuencial/bSecuencial.i"
+	@echo "... bSecuencial/bSecuencial.s"
 .PHONY : help
 
 

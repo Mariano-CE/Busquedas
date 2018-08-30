@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Busquedas.dir/main.cpp.o  -o Busquedas 
+/usr/bin/c++  -g   CMakeFiles/Busquedas.dir/bSecuencial/bSecuencial.cpp.o CMakeFiles/Busquedas.dir/bBinaria/BusquedaBinaria.cpp.o  -o Busquedas 
