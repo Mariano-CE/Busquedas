@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Busquedas.dir/main.cpp.o  -o Busquedas 
